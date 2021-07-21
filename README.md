@@ -1,6 +1,6 @@
 # OpenGl Interface for NanoVNA(Version 50khz-900mhz)
 
-# visual studio create new project (c++ , Windows, Desktop) Delete all Cpp and h Files (empty project ) then add Sourcecode
+Visual studio create new project (c++ , Windows, Desktop) Delete all Cpp and h Files (empty project ) then add Sourcecode
 
 ![Screenshot](imagefiles/image0.jpg)
 ![Screenshot](imagefiles/image1.jpg)
