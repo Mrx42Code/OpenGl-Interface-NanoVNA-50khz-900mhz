@@ -1,4 +1,4 @@
-# OpenGl Interface for NanoVNA(Version 50khz-1Ghz)
+# OpenGl Interface for NanoVNA(Version 50khz-900Mhz)
 
 ![Screenshot](imagefiles/image0.jpg)
 ![Screenshot](imagefiles/image1.jpg)
