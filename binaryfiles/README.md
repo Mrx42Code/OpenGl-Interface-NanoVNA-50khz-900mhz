@@ -1,1 +1,1 @@
-# OpenGl Interface for NanoVNA(Version 50khz-1Ghz) (Binary Files)
+# OpenGl Interface for NanoVNA(Version 50khz-900mhz) (Binary Files)
