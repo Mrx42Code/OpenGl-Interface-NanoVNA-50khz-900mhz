@@ -505,10 +505,13 @@ namespace NanoVNA {
     //-----------------------------------------------------------------------------
     void MC_RS232::Thread_CallBack_Rs232(int MultiThread_ID)
     {
+        m_Thread_Status.Running = true;
         while (m_Thread_Status.Exit == false) {
             Sleep(5);
             Thread_Rs232_Receive(MultiThread_ID);
         }
+        m_Thread_Status.Running = false;
+        mc_Thread_Rs232.detach();
     }
     //-Protected-------------------------------------------------------------------
     // Name: Thread_Rs232_Receive(int MultiThread_ID,bool)
