@@ -25,11 +25,8 @@
 
 //-----------------------------------------------------------------------------
 // File: MC_OpenGLSmithChart.cpp: implementation of the MC_OpenGLSmithChart class.
-//
 //-----------------------------------------------------------------------------
 #include "ExternNamespace.h"
-
-using namespace std;
 
 namespace NanoVNA {
     //*****************************************************************************  

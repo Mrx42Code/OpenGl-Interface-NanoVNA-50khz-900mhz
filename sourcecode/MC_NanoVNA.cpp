@@ -25,11 +25,8 @@
 
 //-----------------------------------------------------------------------------
 // File: MC_NanoVNA.cpp: implementation of the MC_NanoVNA class.
-//
 //-----------------------------------------------------------------------------
 #include "ExternNamespace.h"
-
-using namespace std;
 
 namespace NanoVNA {
     //*****************************************************************************  
@@ -508,7 +505,7 @@ namespace NanoVNA {
         int Index = 0;
         int cp = 0;
         char ch = 0;
-        string Tmp;
+        std::string Tmp;
 
         for (i = 0; i < Data->Line.length(); i++) {
             ch = Data->Line.at(i);

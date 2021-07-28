@@ -25,12 +25,9 @@
 
 //-----------------------------------------------------------------------------
 // File: MC_VnaMath.cpp: implementation of the MC_VnaMath class.
-//
 //-----------------------------------------------------------------------------
 #include "MC_VnaMath.h"
 #include "ExternNamespace.h"
-
-using namespace std;
 
 namespace NanoVNA {
     //*****************************************************************************  

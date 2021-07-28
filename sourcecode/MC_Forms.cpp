@@ -25,11 +25,8 @@
 
 //-----------------------------------------------------------------------------
 // File: MC_Forms.cpp: implementation of the MC_Forms class.
-//
 //-----------------------------------------------------------------------------
 #include "ExternNamespace.h"
-
-using namespace std;
 
 namespace NanoVNA {
     //*****************************************************************************  
@@ -516,7 +513,7 @@ namespace NanoVNA {
     {
         OPENFILENAMEA OpenFileDialog;
         char fileName[MAX_PATH] = "";
-        string fileNameStr;
+        std::string fileNameStr;
 
         ZeroMemory(&OpenFileDialog, sizeof(OpenFileDialog));
         ZeroMemory(&fileName, sizeof(fileName));
@@ -541,7 +538,7 @@ namespace NanoVNA {
     {
         OPENFILENAMEA SaveFileDialog;
         char fileName[MAX_PATH];
-        string fileNameStr;
+        std::string fileNameStr;
 
         ZeroMemory(&SaveFileDialog, sizeof(SaveFileDialog));
         ZeroMemory(&fileName, sizeof(fileName));
